@@ -85,37 +85,38 @@
   justify-content: space-between;
   border-bottom: solid 1px ;
   overflow: scroll;
+  
+
+  &__left-box__group-name{
+    margin-top: 35px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    }
+
+  &__left-box__member-list{
+    display: flex;
+    font-size: 12px;
+    color: #999999;
+    }
+
+  &__left-box__member-list__member{
+    display: flex;
+    font-size: 12px;
+    color: #999999;
   }
 
-.main-header__left-box__group-name{
-  margin-top: 35px;
-  font-size: 20px;
-  color: #333;
-  margin-bottom: 15px;
+  &__edit-btn{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    margin-top: 30px;
+    color: #38aef0;
+    border: solid 1px #38aef0;
+    position: absolute;
+    right: 40px;
   }
-
-.main-header__left-box__member-list{
-  display: flex;
-  font-size: 12px;
-  color: #999999;
-  }
-
-.main-header__left-box__member-list__member{
-  display: flex;
-  font-size: 12px;
-  color: #999999;
-  }
-
-.main-header__edit-btn{
-  height: 40px;
-  line-height: 40px;
-  padding: 0 20px;
-  margin-top: 30px;
-  color: #38aef0;
-  border: solid 1px #38aef0;
-  position: absolute;
-  right: 40px;
-            }
+}
          
 
 
@@ -127,33 +128,34 @@
   overflow: scroll;
 }
 
- .message {
+.message {
   padding-bottom: 40px;
-}
 
-.message__upper-info {
-  display: flex;
-  margin-bottom: 10px;
-}
+  &__upper-info {
+    display: flex;
+    margin-bottom: 10px;
+  }
 
-.message__upper-info__talker {
-  color: #434a54;
-  font-size: 16px;
-  font-weight: bold;
-}
+  &__upper-info__talker {
+    color: #434a54;
+    font-size: 16px;
+    font-weight: bold;
+  }
 
-.message__upper-info__date {
-  color: #999999;
-  font-size: 12px;
-  margin-left: 10px;
-}
+  &__upper-info__date {
+    color: #999999;
+    font-size: 12px;
+    margin-left: 10px;
+  }
 
-.message__text {
-  color: #434a54;
-  font-size: 14px;
-  margin-bottom: 10px;
-
+  &__text {
+    color: #434a54;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 }
+ 
+
 
 .form {
   background-color: #DDDDDD;
