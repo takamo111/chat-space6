@@ -6,6 +6,7 @@
   width: 300px;
   color: white;
   float: left;
+}
 
 .side-header {
   background-color: #253141;
@@ -14,33 +15,33 @@
   align-items: center;
   padding: 0 20px;
 
-&__box {
+  &__box {
   display: flex;
   justify-content: space-between;
   width: 100%;
   font-weight: bold;
+  }
 
-&__box__menu__new-group {
+  &__box__menu__new-group {
   margin-left: 0.3rem;
   display: flex;
   float: left;
+  }
   .fa.fa-edit{
     float: right;
     display: flex;
-  }
+    }
 
-&__box__menu__edit-user{
+  &__box__menu__edit-user{
   margin-left: 0.3rem;
   display: flex;
+  }
   .fa.fa-cog{
     float: right;
     display: flex;
-          }  
-        }   
-      }
-    }
-  }
-}
+    }  
+}   
+  
 
 .groups {
   height: calc(100vh );
