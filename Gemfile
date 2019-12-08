@@ -45,7 +45,6 @@ group :development, :test do
   gem 'faker'
   gem 'byebug', platform: :mri
   gem 'capybara'
-
   gem 'capistrano'
   gem 'capistrano-rbenv'
   gem 'capistrano-bundler'
